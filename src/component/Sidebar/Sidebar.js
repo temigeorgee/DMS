@@ -8,7 +8,7 @@ function Sidebar() {
         <img src="images/dms-logo.svg" alt="" />
         <hr className="sidebar-logo--hr" />
       </div>
-      {/* <div className="sidebar">
+      <div className="sidebar">
         <ul className="sidebar-list">
           {SidebarData.map((val, key) => {
             return (
@@ -26,7 +26,7 @@ function Sidebar() {
             );
           })}
         </ul>
-      </div> */}
+      </div>
     </>
   );
 }
