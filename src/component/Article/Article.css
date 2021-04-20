@@ -1,0 +1,27 @@
+.article-container{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.article-container h2{
+    font-size: clamp(.7em,1em + 1vw, 2em);
+}
+.article-container p{
+    color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: clamp(.25em,.4em + 1vw, 1em);
+}
+.article-container img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+} 
+@media(min-width:720px){
+    .article-container p{
+        line-height: 20px;
+    }
+}

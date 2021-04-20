@@ -1,0 +1,61 @@
+progress {
+    background-color: rgba(57, 14, 150, 0.08);
+    border: 0;
+    height: 5px;
+    border-radius: 10px;
+    color: #053582;
+    width: 100%;
+  }
+progress::-moz-progress-bar {
+     color: #053582; 
+     background-color: rgba(57, 14, 150, 0.08);
+     border-radius: 10px !important;
+    }
+progress::-webkit-progress-value { background: #053582; }
+
+.homepage-form{
+border-radius: 20px;
+background: #FFFFFF;
+box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3rem 3rem 2rem 3rem;
+
+}
+.homepage-form--container{
+    margin-top: .9rem;
+}
+.homepage-form--name{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: .8rem;
+}
+.homepage-form--terms{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 1.2;
+letter-spacing: 0.003em;
+color: #252525;
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.homepage-form--footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.homepage-form--footer-text{
+    color: #696974;
+    font-size: 14px;
+    line-height: 18px;
+text-align: center;
+letter-spacing: 0.003em;
+}
+/* .homepage-form--footer-btn{
+    margin-left: rem;
+} */

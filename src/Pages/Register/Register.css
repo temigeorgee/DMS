@@ -1,0 +1,41 @@
+.register-container{
+    display: grid;
+    background-color: #F5F5F2;
+    grid-template-rows: auto 1fr;
+   
+}
+.register-content{
+    max-width: 1300px;
+    /* margin: 0 auto; */
+    padding: 0 2rem ;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media(min-width:720px){
+    .register-container{
+        height: 100vh;
+    }
+    .register-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 3rem ;
+
+    }  
+    
+    /* .register-container--navbar{
+        grid-column: 1/span 12;
+    } */
+    .register-container--article{
+        flex-basis: 50%;
+    text-align: center;
+    justify-content: center;
+    min-width: 300px;
+    }
+    /* .register-container--form{
+        grid-column: 6/ span 6;
+    }  */
+}

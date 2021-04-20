@@ -1,0 +1,21 @@
+.dashboard-container{
+    display: grid;
+    grid:
+    'nav header' min-content
+    'nav main' 1fr / min-content 1fr;
+  min-height: 100vh;
+}
+.border{
+    border: 3px solid red;
+}
+.dashboard-nav{
+    grid-area: nav;
+    z-index: 2000;
+    width: 12.5rem;
+}
+.dashboard-header{
+    grid-area: header;
+}
+.dashboard-content{
+    grid-area: main;
+}

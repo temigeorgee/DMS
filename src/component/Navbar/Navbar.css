@@ -1,0 +1,31 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .9rem;
+    padding-bottom: .5rem;
+    
+}
+.navbar-container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: .9rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    color: #030026;
+    /* flex-direction: row; */
+}
+.navbar-brand h3{
+    margin-left: .9rem;
+    text-decoration: none;
+}
