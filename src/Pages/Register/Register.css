@@ -1,6 +1,5 @@
 .register-container{
     display: grid;
-    background-color: #F5F5F2;
     grid-template-rows: auto 1fr;
    
 }
