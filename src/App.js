@@ -1,8 +1,7 @@
-import './app.css';
 import DashBoardLayout from './Pages/DashBoard/DashBoardLayout';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Register from './Pages/Register/Register';
-import './styles.css';
+import './app.css';
 import SigninPage from './Pages/SigninPage/SigninPage';
 export default function App() {
   return (
