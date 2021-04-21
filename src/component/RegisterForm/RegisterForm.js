@@ -60,7 +60,7 @@ function RegisterForm() {
                 <div className="homepage-form--footer-btn">
                   <Button
                     buttonStyle="btn--primary--solid"
-                    buttonSize="btn--smallest"
+                    buttonSize="btn--small"
                   >
                     Register
                   </Button>
