@@ -77,13 +77,14 @@ margin: 24px 0px;
 }
 .homepage-form--footer-text{
     color: #696974;
-    font-size: 14px;
+    font-size: clamp(.7em,.5em + 1vw,.85em);
     line-height: 18px;
 text-align: center;
 letter-spacing: 0.003em;
+
 }
 .join{
-    font-size: clamp(.5em,.5em + 1vw, .65em);
+    font-size: clamp(.7em,.5em + 1vw,.75em);
 }
 .homepage-form--password{
     display: flex;
