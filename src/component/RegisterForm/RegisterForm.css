@@ -57,7 +57,7 @@ text-align: center;
 letter-spacing: 0.003em;
 }
 .join{
-    font-size: clamp(.5em,.5em + 1vw, .7em);
+    font-size: clamp(.5em,.5em + 1vw, .65em);
 }
 .homepage-form--password{
     display: flex;
