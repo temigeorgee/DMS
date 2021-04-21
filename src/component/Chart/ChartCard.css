@@ -23,7 +23,9 @@ border-radius: 12px;
     align-items: center;
     justify-content: space-around;
 }
-
+.card-chart--title{
+    width: 200px;
+}
 .pool-chart{
 display: grid;
 background: #F9F9F9;

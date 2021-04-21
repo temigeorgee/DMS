@@ -15,7 +15,16 @@ function RegisterForm() {
   return (
     <>
       <div className="homepage-form">
-        <progress value="50" max="100"></progress>
+        <div className="progress mb-1">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="0"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+        {/* <progress value="50" max="100"></progress> */}
         <br />
         <div className="homepage-form--register">
           <h2>Basic Information</h2>
