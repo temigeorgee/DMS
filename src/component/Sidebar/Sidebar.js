@@ -1,11 +1,14 @@
 import React from 'react';
 import { SidebarData } from './SidebarData';
 import './Sidebar.css';
-function Sidebar() {
+import { Link } from 'react-router-dom';
+function Sidebar({ click }) {
   return (
     <>
       <div className="sidebar-logo">
-        <img src="images/dms-logo.svg" alt="" />
+        <Link to="/" style={{ textDecoration: 'none' }}>
+          <img src="images/dms-logo.svg" alt="" />
+        </Link>
         <hr className="sidebar-logo--hr" />
       </div>
       <div className="sidebar">
@@ -21,7 +24,9 @@ function Sidebar() {
                 }}
               >
                 <div id="icon">{val.icon}</div>
-                <div id="title">{val.title}</div>
+                <div id="title" className={click ? 'show-title' : 'title'}>
+                  {val.title}
+                </div>
               </li>
             );
           })}

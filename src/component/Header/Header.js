@@ -1,8 +1,12 @@
 import React from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import './Header.css';
-function Header() {
+function Header({ click, handleClick }) {
   return (
     <div className="header-section">
+      <div className="menu-icon" onClick={handleClick}>
+        {click ? <FaTimes /> : <FaBars />}
+      </div>
       <div className="search">
         <form className="search-form">
           <input type="text" placeholder="Search" />

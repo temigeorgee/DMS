@@ -28,7 +28,7 @@ function SignIn() {
                   </Link>
                 </div>
                 <div className="homepage-form--footer">
-                  <div className="homepage-form--footer-text">
+                  <div className="homepage-form--footer-text join">
                     <p>
                       Just joining us here?
                       <Link

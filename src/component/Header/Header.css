@@ -39,6 +39,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background-color: #ffff;
   }
   .info{
       display: flex;
@@ -66,4 +67,12 @@
   }
   .info-details h6{
       color: #B8B8B8;
+  }
+  .menu-icon{
+    display: none;
+  }
+  @media(min-width:720px){
+    .menu-icon{
+      display: block;
+    }
   }

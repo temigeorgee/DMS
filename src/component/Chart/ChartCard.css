@@ -1,0 +1,97 @@
+.card-chart{
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: auto auto;
+    border: 1px solid #fff;
+    padding: 24px 25px;
+background: #FFFFFF;
+border-radius: 12px;
+}
+.card-chart--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-chart--main-result{
+    display: flex;
+}
+.card-chart--number,.pool-chart--number{
+    color: #FF3A29;
+}
+.card-chart--result{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pool-chart{
+display: grid;
+background: #F9F9F9;
+border-radius: 10px;
+padding: 1rem;
+gap: 1.5rem;
+}
+.pool-chart--graph{
+    display: flex;
+    justify-content: center;
+}
+.pool-chart--caption{
+    display: flex;
+    justify-content: center;
+}
+.order{
+    display: grid;
+    background: #F9F9F9;
+    top: 0px;
+    border-radius: 10px;
+    padding: 2rem;
+    gap: .9rem;
+}
+.order-img{
+    width: 20rem;
+}
+.order-chart{
+    display: flex;
+    justify-content: space-between;
+}
+.orders-chart--status{
+    display: flex;
+}
+.orders-chart-blue{
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: .5rem;
+    width: .5rem;
+    height: .5rem;
+}
+.orders-chart-green{
+    border-radius: 50%;
+    background-color: #34B53A;
+    margin-top: .5rem;
+    width: .5rem;
+    height: .5rem;
+}
+.orders-chart-red{
+    border-radius: 50%;
+    background-color: #FF3A29;
+    margin-top: .5rem;
+    width: .5rem;
+    height: .5rem;
+}
+.orders-chart-status-1, .orders-chart-status-2, .orders-chart-status-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.orders-chart-numbers{
+    margin-left: .5rem;
+}
+.orders-chart-pie-1{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.orders-chart-pie-1 img{
+    width: clamp(5rem, 20vw, 10rem);
+}
