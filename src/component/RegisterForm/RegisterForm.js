@@ -8,7 +8,7 @@ function RegisterForm() {
   const style = {
     paddingLeft: '1rem',
     backgroundColor: '#FFF',
-    color: '#DADADE',
+    color: 'black',
     borderRadius: '10px',
     border: '1px solid #DADADE',
   };
@@ -25,7 +25,7 @@ function RegisterForm() {
             <form className="">
               <div className="homepage-form--name">
                 <div className="homepage-form--firstname">
-                  <Input placeholder="First Name " style={style} />
+                  <Input placeholder="First Name " style={style} children />
                 </div>
                 <div className="homepage-form--lastname">
                   <Input placeholder="Last Name" style={style} />

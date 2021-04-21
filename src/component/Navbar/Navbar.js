@@ -7,7 +7,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link className="navbar-brand" style={{ textDecoration: 'none' }}>
+          <Link
+            to="/"
+            className="navbar-brand"
+            style={{ textDecoration: 'none' }}
+          >
             <img src="images/dms-logo.svg" alt="" />
             <h3>DMS</h3>
           </Link>

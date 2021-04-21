@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Input.css';
 
-const Input = ({ type, placeholder, style, onChange }) => {
+const Input = ({ type, placeholder, style, onChange, children }) => {
   return (
     <div className="form-group">
       <input

@@ -1,5 +1,6 @@
 .form-group{
     margin-bottom: .8rem;
+    position: relative;
 }
 .form-control {
     display: block;
@@ -10,12 +11,27 @@
     transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
 }
 .form-control:focus {
-    color: #495057 ;
+    color: black ;
     background-color: #fff;
     border-color: #A1B3D1 !important;
     outline: 0;
     /* box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); */
 }
-.form-control:focus::placeholder{
+/* .form-control:focus::placeholder{
     margin-top: -4rem;
-}
+} */
+.form-group .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 18px;
+    left: 10px;
+    transition: 0.2s ease all;
+  }
+  .form-group input:focus ~ .floating-label,
+  .form-group input:not(:focus):valid ~ .floating-label {
+    top: 9px;
+    left: 10px;
+    font-size: 13px;
+    opacity: 1;
+    background-color: #fff;
+  }
