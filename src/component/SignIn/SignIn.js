@@ -6,7 +6,7 @@ function SignIn() {
   const style = {
     paddingLeft: '1rem',
     backgroundColor: '#FFF',
-    color: '#DADADE',
+    color: 'black',
     borderRadius: '10px',
     border: '1px solid #DADADE',
   };
@@ -42,7 +42,7 @@ function SignIn() {
                   <div className="homepage-form--footer-btn">
                     <Button
                       buttonStyle="btn--primary--solid"
-                      buttonSize="btn--smallest"
+                      buttonSize="btn--small"
                     >
                       Login
                     </Button>

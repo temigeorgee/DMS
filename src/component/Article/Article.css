@@ -4,7 +4,7 @@
 }
 
 .article-container h2{
-    font-size: clamp(.7em,1em + 1vw, 2em);
+    font-size: clamp(.7em,1em + 1vw, 2.5em);
 }
 .article-container p{
     color: #000000;
