@@ -31,8 +31,10 @@ function OrderChart() {
                 </div>
               </div>
             </div>
-            {/* pie-graph */}
           </div>
+          <small className="card-chart--dropdown">
+            Today <FaSortDown />
+          </small>
         </div>
         <div className="orders-chart-pie-1">
           <img src="images/Frame 1867.svg" alt="" />

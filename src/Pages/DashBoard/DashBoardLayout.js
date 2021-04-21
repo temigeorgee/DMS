@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import Areachart from '../../component/Chart/Areachart';
 import ChartCard from '../../component/Chart/ChartCard';
-import LineChart from '../../component/Chart/Linechart';
 import OrderChart from '../../component/Chart/OrderChart';
 import Pool from '../../component/Chart/Pool';
 import Header from '../../component/Header/Header';
@@ -11,7 +9,7 @@ import './DashBoardLayout.css';
 function DashBoardLayout() {
   const [click, setClick] = useState(false);
   // const [button, setButton] = useState(true);
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar] = useState(false);
   const handleClick = () => setClick(!click);
   return (
     <>
