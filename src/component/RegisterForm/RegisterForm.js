@@ -25,16 +25,29 @@ function RegisterForm() {
             <form className="">
               <div className="homepage-form--name">
                 <div className="homepage-form--firstname">
-                  <Input placeholder="First Name " style={style} children />
+                  <Input
+                    placeholder="First Name "
+                    type={'text'}
+                    style={style}
+                    children
+                  />
                 </div>
                 <div className="homepage-form--lastname">
-                  <Input placeholder="Last Name" style={style} />
+                  <Input placeholder="Last Name" type={'text'} style={style} />
                 </div>
               </div>
-              <Input placeholder="Company Address" style={style} />
-              <Input placeholder="Phone Number" style={style} />
-              <Input placeholder="Company Email Address" style={style} />
-              <Input placeholder="Password" style={style} />
+              <Input
+                placeholder="Company Address"
+                type={'text'}
+                style={style}
+              />
+              <Input placeholder="Phone Number" type={'number'} style={style} />
+              <Input
+                placeholder="Company Email Address"
+                type={'email'}
+                style={style}
+              />
+              <Input placeholder="Password" type={'password'} style={style} />
               <div className="homepage-form--terms">
                 <p>
                   By clicking "Next" you agree to our

@@ -20,8 +20,12 @@ function SignIn() {
 
             <div className="homepage-form--container">
               <form className="">
-                <Input placeholder="Email Address" style={style} />
-                <Input placeholder="Password" style={style} />
+                <Input
+                  placeholder="Email Address"
+                  type={'email'}
+                  style={style}
+                />
+                <Input placeholder="Password" type={'password'} style={style} />
                 <div className="homepage-form--terms ">
                   <Link style={{ textDecoration: 'none', color: '#053582' }}>
                     <p className="homepage-form--password">Forgot Password?</p>
